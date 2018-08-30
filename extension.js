@@ -17,7 +17,7 @@ var getAtCoderRating = function () {
         rating = $('#main-container > div > div.col-sm-8 > table > tr:nth-child(2) > td > span').html();
         statusBarRating.hide();
         statusBarRating.text = `${username}:${rating}`;
-        statusBarRating.color = ['gray','brown','green','cyan','#494cff','yellow','orange','red'][Math.min(Math.floor(parseInt(rating) / 400),7)];
+        statusBarRating.color = ['gray','#9b4207','#3abf01','cyan','#494cff','yellow','orange','red'][Math.min(Math.floor(parseInt(rating) / 400),7)];
         statusBarRating.show();
     });
 }

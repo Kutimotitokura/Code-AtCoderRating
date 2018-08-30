@@ -2,10 +2,10 @@
   "name": "code-atcoderrating",
   "displayName": "Code-AtCoderRating",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Kutimoti",
   "engines": {
-    "vscode": "^1.26.0"
+    "vscode": "^1.20.0"
   },
   "categories": [
     "Other"

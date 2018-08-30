@@ -3,7 +3,7 @@
   "displayName": "Code-AtCoderRating",
   "description": "",
   "version": "0.0.1",
-  "publisher": "Kutimotitokura",
+  "publisher": "kutimotitokura",
   "engines": {
     "vscode": "^1.26.0"
   },

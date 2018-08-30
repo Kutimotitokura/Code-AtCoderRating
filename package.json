@@ -18,7 +18,19 @@
         "commands": [{
             "command": "extension.sayHello",
             "title": "Hello World"
-        }]
+        }],
+        "configuration" :[
+            {
+                "title": "AtCoderRating",
+                "properties": {
+                    "atcoderrating.username":{
+                        "type" : "string",
+                        "default" : "tourist",
+                        "description": "your AtCoder username"
+                    }
+                }
+            }
+        ]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",

@@ -8,7 +8,7 @@ var rating = "0";
 var statusBarRating = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left);
 
 var getAtCoderRating = function () {
-    var username = 'kutimotitokura'
+    var username = vscode.workspace.getConfiguration('atcoderrating').get('username');
     client.fetch(`https://beta.atcoder.jp/users/${username}`, {}, function (err, $, res) {
         console.log(res.headers);
 
